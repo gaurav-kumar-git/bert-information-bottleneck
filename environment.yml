@@ -1,0 +1,23 @@
+name: info_bottleneck_env 
+
+channels:
+  - pytorch        
+  - nvidia         
+  - conda-forge    
+  - defaults       
+
+dependencies:
+  - python=3.10    
+  - pytorch        
+  - torchvision    
+  - torchaudio     
+  - pytorch-cuda=11.8 
+  - pip             
+
+  
+  - transformers
+  - datasets
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - accelerate

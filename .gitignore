@@ -1,0 +1,8 @@
+/local_cache
+/results/best_*
+__pycache__/
+*.pyc
+*.safetensors
+.vscode/
+.idea/
+*.swp
